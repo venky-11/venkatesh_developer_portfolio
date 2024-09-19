@@ -47,12 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm  venkatesh vilas kodgire a skilled software developer, data Analyst
-        with experience in SQL, DSA, OS, OOP, CN, HTML, CSS TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm Venkatesh Kodgire, a skilled Full Stack Developer and Data Analyst
+        with strong proficiency in C++ and Python,alongside expertise in SQL,
+        Data Structutes and Algorithms, Operating Systems, and Object Oriented 
+        Programming. My Technical toolkit includes Machine Learning, Deep Learn-
+        ing,AWS, API's, and Matlab, as well as web technologies like HTML, CSS, 
+        Javascript,Typescript, React, and Node.js. I'm a fast learner who excels
+        at collaborating with clients to design scalable, efficient, and user-cen
+        tric solutions that address real-world challenges. Let's work together to 
+        turn your vision into reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
