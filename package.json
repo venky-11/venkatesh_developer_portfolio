@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -28,19 +30,8 @@
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
-    "vite": "^4.1.0"
-  }
+    "vite": "^4.1.0",
+    "gh-pages": "^4.0.0"
+  },
+  "homepage": "https://venky-11.github.io/venkatesh_developer_portfolio"
 }
-
-
-
-
-
-
-
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-"homepage": "https://<venky-11>.github.io/<venkatesh_developer_portfolio>"
-
