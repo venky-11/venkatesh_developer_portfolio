@@ -114,10 +114,12 @@ const technologies = [
   },
 ];
 
-const Education  = [
+const experiences  = [
   {
     title: "B.Tech in Electrical Engineering",
     company_name: "DBATU, Lonere",
+    icon: starbucks,
+    iconBg: "#383E56",
     date: "Aug 2016 - Oct 2020",
     points: [
       "Got Posco Asia Fellowship from POSCO Steel Company worth 500 Dollars.",
@@ -128,6 +130,8 @@ const Education  = [
   {
     title: "M.Tech in Data Science",
     company_name: "NITK, Surathkal",
+    icon: tesla,
+    iconBg: "#E6DEDD",
     date: "Aug 2022 - July 2024",
     points: [
       "Completed Projects in Deep learning, Machine Learning .",
@@ -145,6 +149,7 @@ const testimonials = [
     name: "Yashwant Patel",
     designation: "Devops Engineer",
     company: "Amazon",
+    image:"https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
@@ -152,6 +157,7 @@ const testimonials = [
     name: "GopalKrishna Pai",
     designation: "AI Engineer",
     company: "Stealth Startup",
+    image:"https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 
