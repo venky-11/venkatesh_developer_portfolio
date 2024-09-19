@@ -31,3 +31,16 @@
     "vite": "^4.1.0"
   }
 }
+
+
+
+
+
+
+
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+"homepage": "https://<venky-11>.github.io/<venkatesh_developer_portfolio>"
+
